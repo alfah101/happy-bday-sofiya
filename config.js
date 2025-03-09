@@ -38,7 +38,7 @@ const CONFIG = {
 hbday: {
         title: "HAPPY BIRTHDAY SOFIYA! 🎉💝💖💝💓",
         message: "May Allah Bless you!❤️",
-	message1: "اللَّهُمَّ بَارِكْ فِيهِ 🤲",
+	message1: "اللَّهُمَّ بَارِكْ فيها 🤲",
         emojis: "🎁🎉💖🤗💝❤️💕"  // These will bounce around
     },
 
