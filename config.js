@@ -68,7 +68,7 @@ hbday: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://raw.githubusercontent.com/alfah101/happy-bday-sofiya/refs/heads/main/sofiya.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
+        startText: "🎵 Play Music for Suprise",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
