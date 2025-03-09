@@ -157,7 +157,6 @@ function hbday() {
     document.getElementById('hbdayEmojis').textContent = config.hbday.emojis;
     
     // Create heart explosion effect
-    createHeartExplosion();
 }
 
 // Create heart explosion animation
