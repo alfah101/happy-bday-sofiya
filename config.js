@@ -18,7 +18,7 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
                second: {
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            nextBtn: "Click This ❤️"                                         // Text for the next button
         },
         third: {
             text: "Will you Marry Me Please? 🌹", // The big question!
