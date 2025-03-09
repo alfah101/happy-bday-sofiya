@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CUSTOMIZE: Browser tab title -->
+    <title>Will U Mry Me Sofiya? 💝</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Background Elements -->
+    <div class="floating-elements">
+        <!-- Hearts and bears will be added here by JavaScript -->
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="container">
+      
+        
+        <!-- Music Player -->
+        <div id="musicControls" class="music-controls">
+            <button id="musicToggle" class="music-btn">🎵 Play Music</button>
+            <audio id="bgMusic" loop>
+                <source id="musicSource" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!-- First Question -->
+
+
+<div class="hbday hidden" id="hbday">
+            <h1 class="hbday-text" id="hbdayTitle"></h2>
+            <p class="hbday-text" id="hbdayMessage"></p>
+	<p class="hbday-text" id="hbdayMessage1"></p>
+            <p class="hbday-text" id="hbdayEmojis"></p>
+<button class="cute-btn" onclick="showNextQuestion(2); hideq()" id="nextBtn"></button>
+</div>
+
+
+        <!-- Second Question (Love Meter) -->
+        <div class="question-section hidden" id="question2">
+            <h1>Can I ask u something ?</h1>
+		<img src="tum.png" width="200" height="200">
+<br>
+           <button class="cute-btn final-yes" onclick="showNextQuestion(3)" id="yesBtn3"></button>
+            <button class="cute-btn" onclick="moveButton(this)" id="noBtn3"></button></div>
+
+        <!-- Final Question -->
+        <div class="question-section hidden" id="question3">
+            <h2 id="question3Text"></h2>
+<img src="tumb.png" width="200" height="200">
+<br>
+            <button class="cute-btn final-yes" onclick="celebrate()" id="yesBtn3">YES!</button>
+            <button class="cute-btn" onclick="moveButton(this)" id="noBtn3">no</button>
+        </div>
+
+        <!-- CUSTOMIZE: Celebration message -->
+        <div class="celebration hidden" id="celebration">
+            <h2 id="celebrationTitle"></h2>
+            <p class="celebration-text" id="celebrationMessage"></p>
+            <p class="celebration-text" id="celebrationEmojis"></p>
+<p>indha message ah namba lukula vachu konga please 🥺👉👈<p>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="config.js"></script>
+    <script src="theme.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
